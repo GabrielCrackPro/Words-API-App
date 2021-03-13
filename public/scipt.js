@@ -18,6 +18,7 @@ search.addEventListener('submit', (event) => {
     const word = wordData.get('search')
     const code = wordData.get('lang')
     if (word != '' && code != '') {
+        wordContainer.classList.add('animated')
         getWord(word, code)
     }
     search.reset()

@@ -69,3 +69,14 @@
   padding: 5px;
   color: #fff;
 }
+.animated {
+  animation: displayWord 2s;
+}
+@keyframes displayWord {
+  from {
+    height: 0;
+  }
+  to {
+    height: 170px;
+  }
+}
