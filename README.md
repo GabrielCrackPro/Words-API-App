@@ -6,11 +6,12 @@ Practise with dictionary API
 
 - [x] Find a dictionary API - https://dictionaryapi.dev/
 - [x] Make get request to API
-- [x] Extract definition word
+- [x] Extract word definition
+- [x] Implement search
+- [x] Add styles
 
 ## TODO
 
-- Implement search
 - Extraxt all word data
-- Add styles/animations
-- Deploy using surge.sh
+- Add animations
+- Add more definitions

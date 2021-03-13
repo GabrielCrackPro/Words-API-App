@@ -10,8 +10,15 @@
 </head>
 
 <body>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Dictionary</a></li>
+            <li id="about"><a href="#">About</a></li>
+        </ul>
+    </nav>
     <form id="search">
-        <input type="text" name="search" id="" placeholder="Search Word" autocomplete="off" spellcheck="off">
+        <input type="text" name="search" placeholder="Search Word" autocomplete="off" spellcheck="off">
+        <input type="text" name="lang" placeholder="Language Code" value="en_US">
         <button>Search</button>
     </form>
     <div class="word"></div>
