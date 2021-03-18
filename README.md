@@ -8,6 +8,7 @@ Practise with dictionary API
 - [x] Make get request to API
 - [x] Extract word definition
 - [x] Implement search
+- [x] Add word examples
 - [x] Add styles/animations
 
 ## TODO
