@@ -7,7 +7,8 @@ const getWord = (word, code) => {
     <p>Word: ${word}</p>
     <p>Definition: ${JSON.stringify(d[0].meanings[0].definitions[0].definition)}</p>
     <p>Synonyms: ${JSON.stringify(d[0].meanings[0].definitions[0].synonyms)}</p>
-    <a href="https://en.wikipedia.org/wiki/${word}" target="blank">Wiki</a>
+    <p>Example: ${JSON.stringify(d[0].meanings[0].definitions[0].example)}</p>
+    <a href="https://en.wikipedia.org/wiki/${word}" target="blank"><i class="fab fa-wikipedia-w"></i></a>
     `
         ))
 }

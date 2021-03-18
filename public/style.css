@@ -5,6 +5,9 @@
   font-family: sans-serif;
   font-size: 22px;
 }
+body {
+  overflow: hidden;
+}
 *::placeholder {
   color: #0d1b2a;
   font-weight: bold;
@@ -72,6 +75,34 @@
 .animated {
   animation: displayWord 2s;
 }
+/*About*/
+.about {
+  background: #0d1b2a;
+  color: #fff;
+  height: 100vh;
+}
+.about a {
+  color: #fff;
+}
+.about i {
+  margin: 15px;
+  margin-left: 40vh;
+  font-size: 90px;
+}
+#title,
+#description {
+  text-align: center;
+}
+#title {
+  margin-bottom: 10vh;
+  font-size: 40px;
+  font-style: italic;
+}
+.social {
+  margin-top: 20vh;
+  margin-left: 20px;
+}
+
 @keyframes displayWord {
   from {
     height: 0;
