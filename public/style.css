@@ -76,7 +76,8 @@ body {
   animation: displayWord 2s;
 }
 /*About*/
-.about {
+.about,
+.error {
   background: #0d1b2a;
   color: #fff;
   height: 100vh;

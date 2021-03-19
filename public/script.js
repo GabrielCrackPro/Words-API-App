@@ -1,5 +1,8 @@
 const search = document.querySelector('#search')
 const wordContainer = document.querySelector('.word')
+
+const errorCode = document.querySelector('.error-title')
+const errorDescription = document.querySelector('.error-description')
 //Get a word
 const getWord = (word, code) => {
     fetch(`http://api.dictionaryapi.dev/api/v2/entries/${code}/${word}`)
@@ -21,6 +24,11 @@ search.addEventListener('submit', (event) => {
     if (word != '' && code != '') {
         wordContainer.classList.add('animated')
         getWord(word, code)
+    }
+    if (word == '') {
+        window.open('error.html')
+        errorCode.textContent = '404'
+        errorDescription.textContent = 'Not Found'
     }
     search.reset()
     event.preventDefault()
