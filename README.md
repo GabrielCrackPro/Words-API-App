@@ -1,6 +1,7 @@
 # Words API App
 
 Practise with dictionary API
+Deployed <a href="http://wordsapi.surge.sh" target="blank">here</a>
 
 ## DONE
 
